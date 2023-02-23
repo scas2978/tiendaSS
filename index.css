@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:1.2rem;
+    color: black;
+    vertical-align: baseline;
+}
+
+
+.container {
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:sans-serif;
+    font-size:1.2rem; ;
+}
+
+.container input{
+    color: rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-size:25px;
+    justify-content: space-evenly;
+}
+
+
+.container ul li::before{
+    content:"";
+    height:3px;
+    width:100%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left:0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.imagen{
+    height:100px;
+}
+
+.container input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size:18px;
+    color: #000000;
+    outline:none;
+    border: 1px solid silver;
+    border-radius:30px;
+    transition: all 0.6s ease;
+
+}
+
+.icono {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:#1fd1d1;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    color: #f85151;
+    font-size: 20px;
+    border-radius:50px;
+    cursor: pointer;
+
+}
+
+.container:hover input{
+    width: 240px;
+}
+
+
+
+.container ul li:hover::before {
+    width:100%;
+}
+
+
+body {
+
+    text-align:center;
+    font-family:sans-serif;
+
+
+}
+ol {
+
+    list-style:none;
+
+}
+
+
+header{
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+}
+
+.head {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 63px;
+background: #171717;
+position: fixed;
+width:100%;
+z-index: 100;
+
+}
+
+.container{
+
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+
+    margin-left: 30px;
+}
+.logo a {
+    text-decoration: none;
+    color:#171717
+    ;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.navbar{
+
+    display: block;
+    padding: 23px 20px;
+    color: #171717;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.container a:hover {
+    background: #3f3f3f;
+}
+
+header{
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/header.jgp) no-repeat center;
+    background-size: cover;
+
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#8b8787;
+
+}
+p {
+    margin-bottom: 40px;
+    font-size:18px ;
+    color:#8b8787;
+
+
+}
+
+.btn{
+
+    display:  inline-block;
+    margin-top: 15px;
+    padding: 10px 50px;
+    border: 2px solid hwb(200 15% 31%);
+    color: #fff;
+    text-decoration: none;
+    background-color:hwb(200 15% 31%);
+
+
+}
+
+
+.btn-hover{
+    background: none;
+}
+
+.btn-home {
+
+display: flex;
+
+}
+
+.btn-home {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau  {
+    padding: 30px;
+    background: #1fd1d1;
+
+}
+.box-container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+
+    height: 11rem;
+    width:17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgb(0, 0, 0, 0.5); 
+    margin: 2rem;
+
+
+
+}
+.box-container .box i {
+
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem; 
+    text-align: center;
+    border-radius: 50%;
+    color: #101010;
+    background: hwb(200 15% 31%);
+    font-size: 2rem;
+    margin: 1rem 0;
+
+
+
+
+}
+
+
+
+.box-container .box H3 {
+
+    font-size: 20PX;
+    color:hwb(200 15% 31%);
+}
+
+.box-container {
+    padding:  0 15px;
+    font-size: 16px;
+
+
+
+
+}
+
+.about {
+    background:#171717;
+}
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    text-align: center;
+
+}
+
+.contact {
+padding-top: 20px;
+background-color: #171717;
+padding-top: 0;
+
+}
+
+
+.contenido{
+    max-width:1100px;
+    width:100;
+    margin: 40px auto;
+    display: flex;
+
+}
+
+.mostrador{
+    width: 100px;
+    transition: .5s ease;
+
+}
+
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.mostrador .fila .item{
+    max-width: 210px;
+    padding: 30px;
+    height: 250px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+.mostrador .fila .item{
+    background-color:#e6e6e6 ;
+
+}
+.mostrador .fila .item img{
+    width: 100px;
+    margin: 30px 0;
+    
+}
+
+.mostrador  .fila .item .descripcion{
+    color:#707070;
+    font-weight: bold;
+
+}
+
+.mostrador  .fila .item .precio{
+    color:#f85151;
+    font-weight: bold;
+    font-size: 20px;
+}
